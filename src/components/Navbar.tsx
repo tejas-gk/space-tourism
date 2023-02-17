@@ -1,14 +1,27 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function Navbar() {
   let [open, setopen] = useState(false)
   const menus = [
-    { name: "HOME" },
-    { name: "DESTINATION" },
-    { name: "CREW" },
-    { name: "TECHNOLOGY" },
+    {
+      name: "HOME",
+      link: "/"
+    },
+    {
+      name: "DESTINATION",
+      link: "/destination"
+    },
+    {
+      name: "CREW",
+      link: "/crew"
+    },
+    {
+      name: "TECHNOLOGY",
+      link: "/technology"
+    },
   ]
   return (
     <nav className="flex items-center justify-between pt-5">
@@ -28,8 +41,11 @@ export default function Navbar() {
         {
           menus.map((menu, index) => (
             <li key={index} className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300">
-              <a className="text-white cursor-pointer  text-sm inline-block md:py-5 py-3">
-                <span className="font-bold mr-1.5">0{index}</span>  {menu.name}</a>
+              <Link
+                href={menu.link}
+                className="text-white cursor-pointer  text-sm inline-block md:py-5 py-3">
+                <span className="font-bold mr-1.5">0{index}</span>  {menu.name}
+              </Link>
             </li>
           ))
         }

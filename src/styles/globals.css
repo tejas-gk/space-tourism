@@ -12,8 +12,14 @@ body {
 }
 
 
-.bg {
+.bg-home {
   background-image: url("/assets/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-destination{
+  background-image: url("/assets/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
