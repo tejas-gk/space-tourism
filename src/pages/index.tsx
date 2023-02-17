@@ -16,19 +16,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg  h-screen">
+      <main className="bg  min-h-screen md:overflow-hidden  pb-20">
         <Navbar />
-        <section className="flex flex-row items-center justify-between h-screen ">
-          <div className='ml-40 w-1/2'>
-            <p className='text-[#4b4d61] text-2xl mb-24
+        <section className="flex flex-col lg:flex-row items-center lg:items-end justify-between max-w-7xl mx-auto px-4 md:px-40 pt-40 lg:pt-60
+        ">
+          <div className='md:w-1/2  md:text-left space-y-8 text-center -mt-28
+          '>
+            <p className='text-indigo-100  text-3xl lg:text-4xl tracking-wider uppercase
             '>
               SO, YOU WANT TO TRAVEL TO
             </p>
-            <span className="text-4xl lg:text-9xl text-white mt-5 mb-10 tracking-widest
+            <span className="text-4xl md:text-9xl text-white mt-5 mb-10 tracking-widest md:mt-10
             ">
               SPACE
             </span>
-            <p className="text-gray-400 w-3/4 mt-10
+            <p className="text-gray-400 md:w-3/4 mt-10 max-w-md 
             ">
               Let&#39;s face it; if you want to go to space, you might as well
               genuinely go to outer space and not hover kind of on the edge of
@@ -36,9 +38,10 @@ export default function Home() {
               this world experience!
             </p>
           </div>
-          <div className=' bg-white rounded-full w-[20rem] h-[20rem] flex items-center justify-center mr-[15rem]  cursor-pointer
+          <div className='bg-white rounded-full w-48 h-48 flex items-center justify-center mr-[15rem]  md:w-60 md:h-60 
+          cursor-pointer mx-auto md:mx-0 mt-10 
           '>
-            <h1 className="text-5xl uppercase 
+            <h1 className="md:text-4xl uppercase  text-xl  font-thin
             ">explore</h1>
           </div>
         </section>
