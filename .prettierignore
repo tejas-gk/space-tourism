@@ -1,0 +1,16 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/.next
+tailwind.config.js
+next.config.js
+README.md
+package.json
+package-lock.json
