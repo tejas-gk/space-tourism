@@ -24,7 +24,7 @@ export default function Home() {
         >
           <div
             className="md:w-1/2  md:text-left space-y-8 text-center -mt-28
-          "
+            "
           >
             <p
               className="text-indigo-100  text-3xl lg:text-4xl tracking-wider uppercase
@@ -50,11 +50,11 @@ export default function Home() {
           </div>
           <div
             className="bg-white rounded-full w-48 h-48 flex items-center justify-center mr-[15rem]  md:w-60 md:h-60 
-          cursor-pointer mx-auto md:mx-0 mt-10 
+          cursor-pointer  md:mx-0 mt-10 ml-[15rem]
           "
           >
             <h1
-              className="md:text-4xl uppercase  text-xl  font-thin
+              className="md:text-4xl uppercase  text-xl  font-thin 
             "
             >
               explore

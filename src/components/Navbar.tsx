@@ -51,7 +51,9 @@ export default function Navbar() {
         {menus.map((menu, index) => (
           <li
             key={index}
-            className="md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300"
+            className={`md:inline-block  md:ml-10 ml-5 md:my-0 my-6 border-b-2 border-transparent hover:border-white duration-300
+           
+            `}
           >
             <Link
               href={menu.link}

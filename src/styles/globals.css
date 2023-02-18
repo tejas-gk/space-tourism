@@ -26,9 +26,30 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.bg-crew{
+  background-image: url('/assets/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-technology{
+  background-image: url('/assets/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 @media (max-width: 768px) {
-  .bg {
+  .bg-home {
     background-image: url('/assets/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg');
+  }
+  .bg-destination {
+    background-image: url('/assets/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg');
+  }
+  .bg-crew{
+    background-image: url('/assets/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg');
+  }
+  .bg-technology{
+    background-image: url('/assets/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg');
   }
 }

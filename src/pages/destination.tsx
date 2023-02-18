@@ -58,7 +58,7 @@ export default function Destination() {
             className="text-center space-y-8 lg:text-left mt-12 
           "
           >
-            <div className="flex text-center">
+            <div className="flex text-center mx-auto ml-16">
               {planets.map((planet, index) => (
                 <button
                   key={index}
