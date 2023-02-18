@@ -17,6 +17,7 @@ export default function crew() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [crews, setCrews] = useState<Crews[]>(c);
 
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [selectedCrewIndex, setSelectedCrewIndex] = useState<number>(0);
 
   const { name, images, role,bio } =
