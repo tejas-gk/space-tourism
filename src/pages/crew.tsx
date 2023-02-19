@@ -28,8 +28,10 @@ export default function crew() {
       <Head>
         <title>Crew</title>
       </Head>
-      <div className="bg-crew min-h-screen md:overflow-hidden pb-20
-      ">
+      <div
+        className="bg-crew min-h-screen md:overflow-hidden pb-20
+      "
+      >
         <Navbar />
         <section className="flex flex-col items-center justify-center h-full md:flex-row max-w-7xl mx-auto px-8 md:px-32">
           <div className='className="flex md:flex-col flex-col-reverse justify-center items-center'>
@@ -37,16 +39,13 @@ export default function crew() {
               className="text-indigo-100 uppercase text-lg lg:text-3xl tracking-[4px] mb-[14rem]
             "
             >
-              <span className="text-gray-500 font-bold mr-2 lg:mr-4 ">
-                02
-              </span>
+              <span className="text-gray-500 font-bold mr-2 lg:mr-4 ">02</span>
               meet your crew
             </h1>
             <article
               className="max-w-7xl 
           "
             >
-             
               <h3
                 className="text-slate-500 text-xl lg:text-3xl
             "
@@ -59,10 +58,14 @@ export default function crew() {
               >
                 {name}
               </h2>
-              <p className="text-indigo-100 leading-relaxed text-center lg:text-left lg:text-lg
-              ">{bio}</p>
-              <div className='flex gap-5'>
-                {crews.map((crew:Crews, index:number) => (
+              <p
+                className="text-indigo-100 leading-relaxed text-center lg:text-left lg:text-lg
+              "
+              >
+                {bio}
+              </p>
+              <div className="flex gap-5">
+                {crews.map((crew: Crews, index: number) => (
                   <button
                     key={crew.name}
                     onClick={() => setSelectedCrewIndex(index)}
