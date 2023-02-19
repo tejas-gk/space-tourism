@@ -7,6 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+
 body {
   /* overflow: hidden; */
 }
@@ -26,13 +29,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.bg-crew{
+.bg-crew {
   background-image: url('/assets/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.bg-technology{
+.bg-technology {
   background-image: url('/assets/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,10 +49,10 @@ body {
   .bg-destination {
     background-image: url('/assets/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg');
   }
-  .bg-crew{
+  .bg-crew {
     background-image: url('/assets/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg');
   }
-  .bg-technology{
+  .bg-technology {
     background-image: url('/assets/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg');
   }
 }

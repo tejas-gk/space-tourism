@@ -59,7 +59,7 @@ export default function Destination() {
           "
           >
             <div className="flex text-center mx-auto ml-16">
-              {planets.map((planet, index) => (
+              {planets.map((planet:Destination, index:number) => (
                 <button
                   key={index}
                   className={`cursor-pointer uppercase text-white text-md pb-2  border-b mx-2 border-transparent 
