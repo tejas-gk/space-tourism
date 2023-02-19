@@ -26,9 +26,9 @@ export default function crew() {
   return (
     <>
       <Head>
-        <title>crew</title>
+        <title>Crew</title>
       </Head>
-      <div className="bg-crew h-screen md:overflow-hidden pb-20
+      <div className="bg-crew min-h-screen md:overflow-hidden pb-20
       ">
         <Navbar />
         <section className="flex flex-col items-center justify-center h-full md:flex-row max-w-7xl mx-auto px-8 md:px-32">
