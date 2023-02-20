@@ -41,8 +41,17 @@ body {
   background-position: center;
 }
 .explore:hover {
-  box-shadow: 0 0 0 2px #f3f3f3f3, 0 0 0 4px #f1f1f1f1, 0 0 0 6px #ccc,
-    0 0 0 8px #ccc;
+   box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.8),
+              0 0 0 4px rgba(204, 204, 204, 0.6),
+              0 0 0 6px rgba(204, 204, 204, 0.4),
+              0 0 0 8px rgba(204, 204, 204, 0.2);
+    user-select: none;
+}
+.explore {
+  transition: all 0.3s ease-in-out;
+}
+.explore:active {
+  transform: scale(0.9);
 }
 
 @media (max-width: 768px) {
