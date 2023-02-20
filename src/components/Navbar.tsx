@@ -24,6 +24,10 @@ export default function Navbar() {
   ];
   return (
     <nav className="flex items-center justify-between pt-5">
+      <div>
+      <Link href="/">
+    
+        
       <Image
         width={30}
         height={30}
@@ -42,7 +46,9 @@ export default function Navbar() {
         alt="logo"
         src="/assets/space-tourism-website-main/starter-code/assets/shared/logo.svg"
         className="w-10 ml-7"
-      />
+          />
+      </Link>
+      </div>
       <ul
         className={`bg-[#ffffff14] backdrop-blur-md  md:pl-10 pr-28 md:static fixed duration-500 ease-linear top-0 md:h-auto h-screen z-10 ${
           !open ? 'right-[-100%] ' : 'right-0'
