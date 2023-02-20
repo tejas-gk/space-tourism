@@ -33,22 +33,23 @@ export default function technology() {
           </h1>
 
           <div className="flex flex-col lg:flex-row-reverse justify-center items-center">
-            <div className='hidden md:block'
-            >
+            <div className="hidden md:block">
               <Image
                 height={500}
                 width={500}
                 className=""
                 alt="potriat image"
-                src={images.portrait} />
+                src={images.portrait}
+              />
             </div>
-            <div className='block md:hidden'>
+            <div className="block md:hidden">
               <Image
                 height={500}
                 width={500}
                 className=""
                 alt="landscape image"
-                src={images.landscape} />
+                src={images.landscape}
+              />
             </div>
 
             <div className="flex flex-col lg:flex-row justify-center gap-12 lg:mr-20">
@@ -57,10 +58,11 @@ export default function technology() {
                   <button
                     className={`flex justify-center items-center w-8 h-8 md:w-16 md:h-16 text-lg lg:text-2xl transition ease-in-out
                     md:mr-0 mr-2 lg:mr-0 lg:mb-4
-                    rounded-full border border-white/20 hover:border-white duration-200 ${index === selectedTechnologyIndex
-                        ? "bg-white text-black"
-                        : "bg-transparent text-white"
-                      }`}
+                    rounded-full border border-white/20 hover:border-white duration-200 ${
+                      index === selectedTechnologyIndex
+                        ? 'bg-white text-black'
+                        : 'bg-transparent text-white'
+                    }`}
                     key={technology.name}
                     onClick={() => setSelectedTechnologyIndex(index)}
                   >
@@ -68,9 +70,7 @@ export default function technology() {
                   </button>
                 ))}
               </div>
-              <div
-                className="flex flex-col space-y-6 px-8 lg:px-0"
-              >
+              <div className="flex flex-col space-y-6 px-8 lg:px-0">
                 <div className="text-center lg:text-left">
                   <small className=" text-white uppercase text-lg tracking-wider">
                     the terminology...

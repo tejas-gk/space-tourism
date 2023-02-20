@@ -40,6 +40,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.explore:hover {
+  box-shadow: 0 0 0 2px #f3f3f3f3, 0 0 0 4px #f1f1f1f1, 0 0 0 6px #ccc,
+    0 0 0 8px #ccc;
+}
 
 @media (max-width: 768px) {
   .bg-home {

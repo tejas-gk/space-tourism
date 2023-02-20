@@ -49,13 +49,13 @@ export default function Home() {
             </p>
           </div>
           <div
-            className="bg-white rounded-full w-48 h-48 flex items-center justify-center mr-[15rem]  md:w-60 md:h-60 
-          cursor-pointer  md:mx-0 mt-10 ml-[15rem]
-          "
+            className="explore bg-white rounded-full w-48 h-48 flex items-center justify-center mr-[15rem]  md:w-60 md:h-60 
+            cursor-pointer  md:mx-0 mt-10 ml-[15rem] group 
+            "
           >
             <h1
               className="md:text-4xl uppercase  text-xl  font-thin 
-            "
+              "
             >
               explore
             </h1>
